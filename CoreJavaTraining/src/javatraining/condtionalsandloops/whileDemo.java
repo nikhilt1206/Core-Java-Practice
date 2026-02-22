@@ -1,0 +1,23 @@
+package javatraining.condtionalsandloops;
+
+public class whileDemo {
+
+	public static void main(String[] args) {
+		
+		//Printing 1 to 10
+		int i=0;
+		while(i<10) {
+			System.out.println(i); 
+			i++;
+		}
+		
+		//Printing 20 to 30
+		int j=20;
+		do {
+			System.out.println(j);
+			j++;
+		}while(j<30);
+
+	}
+
+}

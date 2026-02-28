@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class ArrayRotation {
 
 	public static void main(String[] args) {
-
-		int[] a = { 1, 2, 3, 4, 5 };
-		int k = 2;
+		//Left rotation   
+		int[] a = { 1, 2, 3, 4, 5, 6, 7};
+		int k = 3;
 		k = k % a.length;
 		a= reverse(a, 0, k - 1); //reverse first k elements
 		//reverse remaining elements of the array

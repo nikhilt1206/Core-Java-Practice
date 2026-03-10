@@ -1,6 +1,6 @@
 package com.tuf.dsa.practice;
 
-class Solution{
+class Solution1{
 
 	public int countDigit(int n) {
 	
@@ -16,12 +16,13 @@ class Solution{
 	}
 	
 }
+
 public class CountAllDigitsOfANumber {
 
 	public static void main(String[] args) {
 
 		 int n =123456;
-		 Solution s = new Solution();
+		 Solution1 s = new Solution1();
 		 int ans = s.countDigit(n);
 		 System.out.println("The count of digits in the given number is: "+ans);
 		 

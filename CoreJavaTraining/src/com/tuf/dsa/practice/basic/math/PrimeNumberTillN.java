@@ -1,4 +1,4 @@
-package com.tuf.dsa.practice;
+package com.tuf.dsa.practice.basic.math;
 
 public class PrimeNumberTillN {
 
